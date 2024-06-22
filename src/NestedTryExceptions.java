@@ -16,8 +16,7 @@ class NestedTryexceptions{
     catch(ArrayIndexOutOfBoundsException e){
     	System.out.println(e);
     }  
-     
-    System.out.println("other statement");  
+     System.out.println("other statement");  
    }
    catch(Exception e){
 	  System.out.println("handeled");
