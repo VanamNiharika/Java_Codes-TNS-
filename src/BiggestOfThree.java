@@ -1,7 +1,9 @@
-
 import java.util.Scanner;
 
-public class BiggestOfThree {
+public class BiggestOfThree{
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         // Create a Scanner object to read input from the user
         Scanner scanner = new Scanner(System.in);
@@ -27,7 +29,7 @@ public class BiggestOfThree {
         }
 
         // Print the largest number
-        System.out.println("The largest number is: " + largest);
+        System.out.println("The biggest number is: " + largest);
 
         // Close the scanner to free up resources
         scanner.close();
